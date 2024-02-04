@@ -1,0 +1,641 @@
+.general_view_cont {
+  position: fixed;
+  width: 100%;
+  max-height: 100vh;
+  display: flex;
+}
+
+.minister-home {
+  position: relative;
+  margin: auto;
+
+  min-width: calc(572px + 440px);
+  width: calc(572px + 440px);
+  max-width: calc(572px + 440px);
+
+  padding: 0px 20px;
+
+  overflow-x: hidden;
+
+  width: 100%;
+
+  border-left: 1px solid rgb(243, 243, 243);
+  border-right: 1px solid rgb(243, 243, 243);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.stories .separate_into_two_columns {
+  margin-top: 0px;
+  height: calc(100vh - 47px);
+
+  width: 100%;
+  height: calc(100vh - 50px);
+  max-height: calc(100vh - 50px);
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 0px;
+}
+
+
+
+.sep_part1 {
+  position: relative;
+  min-width: 570px;
+  width: 570px;
+  max-width: 570px;
+  flex: 1 1;
+  margin-bottom: 2px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+
+
+
+
+.uzbek_quron_doublecolumn {
+  max-width: 50%;
+  text-align: justify;
+}
+
+.uzbek_quron_doublecolumn p {
+  font-family: 'TimesNewRoman-boldItalic';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.5px;
+}
+
+
+
+.arabic_quran_doublecolumn {
+  max-width: 50%;
+  direction: rtl;
+}
+
+.arabic_quran_doublecolumn p {
+
+  font-family: 'ArabicType' !important;
+  font-size: 22px !important;
+  color: rgb(97, 97, 97);
+  padding: 0px;
+  text-align: justify;
+
+}
+
+
+.div_with_borders {
+  margin: 15px 0px;
+  border: 1px solid rgb(10, 196, 0);
+  padding: 15px;
+}
+
+.div_with_borders p {
+  font-size: 16px;
+}
+
+.alayhissalam {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Aga_islamic";
+  color: rgb(97, 97, 97);
+  transform: rotate(5deg);
+}
+
+.azza_va_jall {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Aga_islamic";
+  color: rgb(97, 97, 97);
+  font-size: 1.2rem;
+}
+
+.bism p {
+  margin: 20px;
+  font-family: "Aga_islamic";
+  font-size: 52px;
+  text-align: center;
+  color: rgb(0, 111, 131);
+  color: rgb(50, 137, 0);
+  color: rgba(87, 114, 0, 0.897);
+}
+
+
+
+
+
+
+.stories .chapter_heading2 {
+  margin: auto;
+  margin-top: 50px;
+  width: 450px;
+  line-height: 42px;
+}
+
+.stories .chapter_heading2 p {
+  font-family: 'TimesNewRoman-regular';
+  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+.stories .chapter_heading {
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  width: calc(100% - 40px);
+  height: fit-content;
+  line-height: 40px;
+
+  background-color: rgb(254, 255, 224);
+  background: linear-gradient(to right, rgb(221, 255, 221), rgb(255, 247, 177));
+  padding: 15px;
+  border: 4px solid rgb(204, 192, 100);
+
+  display: flex;
+  gap: 25px;
+}
+
+
+.stories .chapter_heading .img_container {
+  margin-left: 0px;
+  min-width: 95px;
+  width: 95px;
+  height: 95px;
+  padding: 7px;
+  background-color: rgb(255, 253, 222);
+  border: 4px solid rgb(230, 230, 230);
+  border: 4px solid rgba(182, 164, 0, 0.736);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.stories .chapter_heading .img_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.stories .title_of_chapter {
+  margin: auto;
+  margin-left: 0px;
+  margin-right: auto;
+  z-index: 2;
+}
+
+.chapter_heading .title_of_chapter p {
+  font-family: 'TimesNewRoman-regular';
+  text-transform: uppercase;
+  font-size: 24px;
+  color: rgb(175, 157, 0);
+}
+
+.stories .chapter_heading .kamar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 530px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
+
+.stories .chapter_heading .kamar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.paragraph_heading {
+  margin: 20px 0px;
+  margin-top: 30px;
+}
+
+.paragraph_heading p {
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'TimesNewRoman-Regular';
+
+
+  color: rgb(89, 89, 0);
+  color: rgb(88, 114, 0);
+}
+
+.stories .main_text p {
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+
+.stories .main_text p:last-child {
+  margin-bottom: 0px;
+}
+
+
+.arabic_quran {
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 3px;
+  margin: 10px 0px;
+  padding: 10px 20px;
+  padding-bottom: 3px;
+  text-align: justify;
+  direction: rtl;
+}
+
+.arabic_quran p {
+  font-family: 'ArabicType' !important;
+  font-size: 22px !important;
+  color: rgb(95, 124, 0);
+  color: rgb(97, 97, 97);
+}
+
+.uzbek_quron {
+  border-radius: 3px;
+  padding-bottom: 10px;
+}
+
+
+
+.right_wing_stuff {
+  border-radius: 7px;
+  border: 1px solid rgb(201, 201, 201);
+  padding: 20px;
+}
+
+.right_wing_stuff h2 {
+  margin-bottom: 10px;
+  color: rgb(87, 0, 128);
+  font-weight: 400;
+  font-size: 18px;
+
+}
+
+.bigger_image {
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+  margin: 20px 0px;
+}
+
+.bigger_image img {
+  width: 100%;
+  border-radius: 7px;
+  height: auto;
+  object-fit: cover;
+}
+
+.stories .speech-bubble {
+  position: absolute;
+  padding: 15px;
+  width: 380px;
+  left: 580px;
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 4px;
+  z-index: 1;
+}
+
+
+.speech-bubble p {
+  font-size: 12px !important;
+  font-weight: 400;
+  font-family: "Roboto" !important;
+  color: black;
+}
+
+
+.stories .main_text .speech-bubble p {
+  margin-bottom: 0px;
+}
+
+
+
+.stories footer {
+  margin: 10px 0px;
+  background-color: rgb(1, 1, 1);
+  padding: 5px;
+  text-align: center;
+  display: flex;
+}
+
+.stories footer>div {
+  margin: auto;
+}
+
+.stories footer p {
+  color: rgb(200, 200, 200);
+  padding: 5px;
+  text-align: center;
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 1120px) {
+  .stories .speech-bubble {
+    right: -292px;
+    width: 280px;
+  }
+}
+
+
+.stories aside {
+  padding: 0px 20px;
+  padding-top: 20px;
+
+  position: sticky;
+  top: 0px;
+  min-width: 440px;
+  width: 440px;
+  max-width: 440px;
+  /* height: calc(100vh - 50px); */
+  overflow-y: scroll;
+  border-left: 1px solid rgb(238, 238, 238);
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.stories .sep_part1 .nav_arrows {
+  padding: 0px;
+  margin-top: 15px;
+  margin-top: 0px;
+
+}
+
+.nav_arrows>div>div {
+  margin: auto;
+  padding: 10px 10px;
+  background-color: #7d7d7d;
+  cursor: pointer;
+
+  display: flex;
+}
+
+.nav_arrows>div>div:hover {
+  background-color: #000000;
+  transition: all 0.4s ease-in-out;
+}
+
+.nav_arrows>div>div>div {
+  margin: auto;
+}
+
+.nav_arrows .central_div {
+  width: 100%;
+  margin: 0px 10px;
+}
+
+.nav_arrows p,
+.nav_arrows span {
+  font-size: 12px;
+  color: white;
+  white-space: nowrap;
+}
+
+.nav_arrows .indicator {
+  padding: 0px 5px;
+  padding-bottom: 2px;
+}
+
+
+sup {
+  vertical-align: super;
+  font-size: 8px;
+  font-family: 'TimesNewRoman-regular' !important;
+  line-height: 1;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex_it {
+  display: flex;
+}
+
+.margin_auto {
+  margin: auto !important;
+}
+
+.flex_in_doublecolumn {
+  display: flex;
+  gap: 25px;
+}
+
+.space_between {
+  justify-content: space-between;
+}
+
+.who_wrote {
+  margin-top: 5px;
+}
+
+.spacer_height10px {
+  height: 10px;
+}
+
+.stories .italic {
+  color: rgb(63, 95, 138) !important;
+  font-weight: 400;
+}
+
+.stories .boldItalic {
+  color: rgb(0, 74, 0) !important;
+  font-weight: 400;
+}
+
+
+.decor_line {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.decor_line p {
+  font-size: 8px !important;
+  text-align: center;
+  color: rgb(203, 203, 203);
+}
+
+.stories .separate_into_two_columns {
+  margin-top: 0px;
+  height: calc(100vh - 47px);
+  flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap');
+
+@font-face {
+  font-family: "Silom";
+  font-style: normal;
+  font-weight: normal;
+  /* src: "../node_modules/silom.ttf"; */
+  src: url("./fonts/silom.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Oswald-Light';
+  src: url('./fonts/Oswald-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald-Regular';
+  src: url('./fonts/Oswald-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Oswald-SemiBold';
+  src: url('./fonts/Oswald-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aga_islamic';
+  src: url('./fonts/AGA_Islamic_Phrases.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'TimesNewRoman-regular';
+  src: url('./fonts/Times New Roman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TimesNewRoman-bold';
+  src: url('./fonts/Times New Roman - Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TimesNewRoman-italic';
+  src: url('./fonts/Times New Roman - Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TimesNewRoman-boldItalic';
+  src: url('./fonts/Times New Roman - Bold Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ArabicType';
+  src: url('./fonts/Arabic Typesetting Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  /* position: fixed; */
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+}
+
+:root {
+  --fontDash: 'Silom', sans-serif;
+  --fontRoboto: 'Roboto', sans-serif;
+  --fontRobotoCondensed: 'Roboto Condensed', sans-serif;
+
+  --colorDash: rgb(105, 84, 0);
+  --fontColorDashDark: rgb(75, 60, 0);
+  --bgGray: rgb(202, 202, 202);
+  --darkGray: rgb(121, 121, 121);
+  --topBarFontColor: rgba(255, 183, 0, 0.663);
+  --ramka: width: 90%;
+}
+
+button {
+  min-width: 100px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: green;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(0, 137, 0);
+  /* color: rgb(78, 72, 0); */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.yellow_color {
+  color: yellow;
+}
+
+.spacer5px {
+  margin: 5px 0px;
+}
+
+.spacer10px {
+  margin: 10px 0px;
+}
+
+.spacer20px {
+  margin: 20px 0px;
+}
+
+.spacer40px {
+  margin: 40px 0px;
+}
+
+.silom-font {
+  font-family: Silom;
+}
+
+a {
+  color: rgb(40, 40, 40);
+}
+
+p {
+  font-size: 14px;
+}
